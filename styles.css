@@ -1,0 +1,229 @@
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.header-container {
+    position: relative;
+    background-color: #171829;
+    padding: 40px;
+    display: flex;
+    justify-content: right; /* Placera knapparna till höger och ikonen till vänster */
+    align-items: center; /* Centrerar innehållet vertikalt */
+}
+
+
+nav {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+
+  
+hr {
+    width: 40%;
+    color: #110d16;
+    background-color: #110d16;
+    height: 2px;
+    
+
+}
+.site-icon {
+    float: left; /* Flytta ikonen till vänster */
+    position:absolute;
+    top: 15px;
+    left: 20px;
+    
+}
+
+.header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.header-button {
+    margin-left: 10px; /* Lägg till mellanrum mellan knapparna */
+    padding: 8px 16px;
+    background-color: #2a2a46;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: right;
+}
+
+.header-button:hover {
+    background-color: #555;
+}
+
+.header-a {
+    margin-left: 10px; /* Add spacing between buttons */
+    padding: 8px 16px;
+    background-color: #2a2a46;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: right;
+    text-decoration: none; /* Remove underline */
+    width: 40px;
+    font-size: medium;
+}
+
+.header-a:hover {
+    background-color: #555;
+}
+
+#Beställ {
+    margin-left: 10px; /* Lägg till mellanrum mellan knapparna */
+    padding: 20px 30px;
+    background-color: #110d16;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: right;
+    
+
+}
+
+#Beställ:hover {
+    background-color: #525050;
+}
+
+.subtext-section {
+    text-align: left; /* Flytta texten åt vänster */
+}
+
+.subtext {
+    font-family:  Arial, Helvetica, sans-serif; /* Arial-fonten */
+    font-size: 25px; /* Typsnittsstorlek */
+    font-weight: bold; /*Gör texten tjockare*/
+    color: #f5f1ee; /* Färg för texten */
+    margin-top: 10px; /* Justera avståndet till knapparna */
+}
+
+.sum {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: 45%;
+    color:#f5f1f1;
+    background-color: rgba(19, 18, 18, 0.644);
+    border-radius: 5px;
+    padding: 20px 20px;
+    margin-left: 10px;
+
+    
+    
+}
+
+
+.subtext-section {
+    text-align: left; /* Flytta texten åt vänster */
+    background-image: url('resturant.jpg'); /* Bildfil */
+    background-size: cover; /* Anpassa storleken på bakgrundsbilden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    color: #fff; /* Ändra textfärgen för att passa bakgrundsbilden */
+    padding: 50px 20px; /* Lägg till lite utfyllnad för att förbättra utseendet */
+}
+.btn {
+    background-color: #f7741dde; /* Ange bakgrundsfärg för knappen */
+    color: #fff; /* Ange textfärg för knappen */
+    padding: 20px 30px; /* Lägg till padding för att justera knappens storlek */
+    border: none; /* Ta bort knappens kantlinje */
+    border-radius: 5px; /* Runda av kanterna på knappen */
+    cursor: pointer; /* Ange pekarens typ till pekare */
+}
+
+.btn:hover {
+    background-color: #312f2f; /* Ändra bakgrundsfärg när knappen hovras över */
+
+}
+
+
+
+
+/* CSS */
+.menu-section {
+    text-align: center; /* Centrera texten horisontellt */
+    background-image: url('matbild.jpg'); /* Ange sökvägen till din bakgrundsbild */
+    background-size: cover; /* Anpassa storleken på bakgrundsbilden */
+    background-position: center; /* Centrera bakgrundsbilden */
+    background-repeat: no-repeat;
+    color: #fff; /* Ändra textfärgen för att passa bakgrundsbilden */
+    padding: 10px; /* Lägg till lite utfyllnad för att förbättra utseendet */
+    padding-right: 0;
+    display: flex;
+    flex-wrap: wrap;
+    height: 35vw;
+    width: 98vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 2px
+    
+}
+
+.menu-div{
+    background-color: rgba(19, 18, 18, 0.644);
+    margin-left: 5px;
+    padding: 20px 50px;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    font-weight: bold;
+    height: 70%;
+
+}
+
+@media screen and (max-width: 1000px) {
+    .menu-div {
+        width: 100%; /* Make each menu div occupy the full width */
+        padding: 10px 20px;
+        padding-right: 0;
+
+    }
+    .menu-section {
+        padding:0;
+        height: auto;
+    }
+}
+
+.menu-item {
+    margin-bottom: 10px; /* Lägg till mellanrum mellan menyobjekten */
+    
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: px; /* Lägg till mellanrum mellan rubriken och menyobjekten */
+}
+
+
+h3 {
+    
+    margin-bottom: 10px; /* Lägg till mellanrum mellan underrubriken och menyobjekten */
+}
+
+ul {
+    list-style: none; /* Ta bort punktlistestilen från listan */
+    padding: 0; /* Ta bort padding från listan */
+}
+
+li {
+    margin-bottom: 5px; /* Lägg till mellanrum mellan menyobjekten i listan */
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: static;
+    bottom: 0;
+}

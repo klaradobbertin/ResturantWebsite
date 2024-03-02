@@ -1,0 +1,39 @@
+.valkommen-section {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    
+    
+}
+
+.valkommen {
+    font-size: 30px;
+    
+}
+.info {
+    margin-top: 30px;
+    font-size: 20px ;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 
+    'Times New Roman', serif;
+    width: 75%;
+
+}
+.boka {
+    text-align: center ;
+
+    font-size: 20px;
+
+}
+.bord {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    width: 75%;
+}
+
