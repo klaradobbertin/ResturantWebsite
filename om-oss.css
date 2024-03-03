@@ -37,3 +37,20 @@
     width: 75%;
 }
 
+.oppetider-section {
+    position: relative;
+    background-color: black;
+    padding:30px;
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100px;
+    
+}
+.oppet {
+    color: aliceblue;
+    text-align: center;
+    align-items: flex-start;
+
+}
